@@ -20,12 +20,11 @@ AGENT_RULE = """\
 
 ## Smarty McFly Documentation
 
-When answering questions about software tools, libraries, or APIs:
+**MANDATORY:** Before answering ANY question about a software tool, library, API, or CLI command, you MUST:
 
-1. Check `.smarts/MANIFEST.md` to see if relevant documentation exists for the topic.
-2. If a matching topic is found in MANIFEST.md, read the markdown files in the \
-referenced directory.
-3. Use this documentation to provide accurate, up-to-date answers.
+1. Read `.smarts/MANIFEST.md` — no exceptions, even if you think you already know the answer.
+2. If a matching topic is found, you MUST read every linked markdown file in that section before responding.
+3. Base your answer on the documentation you read. Do not rely on training knowledge when local docs exist.
 """
 
 
