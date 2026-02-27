@@ -1,6 +1,6 @@
 [project]
 name = "smarty-mcfly"
-version = "0.1.0"
+version = "0.2.0"
 description = "CLI tool and MCP server for generating and reading documentation as markdown"
 readme = "README.md"
 requires-python = ">=3.12"

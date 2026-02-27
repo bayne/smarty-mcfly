@@ -50,8 +50,9 @@ def _update_manifest(
     if not manifest_path.exists():
         manifest_path.write_text(
             "# Smarty McFly Documentation Manifest\n\n"
-            "When answering questions, check the sections below for relevant "
-            "documentation. If a topic matches, read the linked markdown files.\n\n"
+            "**MANDATORY:** For any matching topic below, you MUST read every linked "
+            "markdown file before responding. Do not rely on training knowledge when "
+            "local docs exist.\n\n"
             f"{topic_header}{entry}"
         )
         return

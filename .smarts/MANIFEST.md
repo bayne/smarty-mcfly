@@ -1,6 +1,6 @@
 # Smarty McFly Documentation Manifest
 
-When answering questions, check the sections below for relevant documentation. If a topic matches, read the linked markdown files.
+**MANDATORY:** For any matching topic below, you MUST read every linked markdown file before responding. Do not rely on training knowledge when local docs exist.
 
 ## vim
 - [all](vim/all.md)
